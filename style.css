@@ -1,0 +1,47 @@
+body{
+    background-color: grey;
+}
+header{
+    background-color: greenyellow;
+    position:fixed;
+    text-align: center;
+    width: 100%;
+    grid-area: h;
+}
+main{
+    width: 70%;
+    max-width: 1500px;
+    margin: auto;
+    padding: 100px 10px 10px 10px;
+    background-color: white;
+}
+nav{
+    grid-area: n;
+    border: solid black 1px;
+    top: 110px;
+    right: 20px;
+    position: fixed;
+}
+article{
+    grid-area: a;
+    border: solid black 1px;
+}
+footer{
+    grid-area: f;
+}
+.formazas{
+    border: solid 1px black;
+    position: fixed;
+    width: 40%;
+    margin: 0% 30% 0 30%;
+    top: 300px;
+    background-color: aqua;
+}
+.formazas form{
+    grid-template-columns: 1fr;
+    display: grid;
+}
+span{
+    width: 3.5%;
+    padding-left: 96.5%; ;
+}
